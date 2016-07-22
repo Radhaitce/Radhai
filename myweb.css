@@ -14,20 +14,33 @@ li{
   float: left;
   padding: 10px;
   position:relative;
-  left: 800px;
-  top: 120px;
+  left: 500px;
+  top: 170px;
   text-transform: uppercase;
-  color:#3C4848;
-  font-size: 15px;
+  color:#C70039;
+  font-family: "DIN";
+  font-size: lem;
+  font-weight: 700;
   transition: color 0.1s linear;
   background: transparent;
   line-height: inherit;
 }
+ul a:hover{
+  color: #C70039;
+}
+.top h1{
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+  position: fixed;
+  z-index: 9999;
+  }
 h1{
   font-size: 100px;
   font-style: normal;;
   font-weight: 800;
-  font-family: DIN;
+  font-family: "DIN";
   letter-spacing: 20px;
   line-height: 110px;
   margin-bottom: 8px;
@@ -35,19 +48,23 @@ h1{
   display: block;
   text-transform: uppercase;
 position: relative;
-top: 200px;
-left: 150px;
+top: 150px;
+left: 100px;
 }
 body{
-  background-color:#D5D8DC;
+  background: #f6f6f6;
+  color: #222;
 }
 ul a{
   text-decoration: none;
   list-style: none;
+    color: #3C4848;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 ul a:hover{
   text-decoration: none;
-  color: black;
+  color: #C70039;
   font-size: 18px;
 }
 header{
@@ -62,7 +79,26 @@ header p{
   left:200px;
   color: black;
 }
-
+.top a input{
+  position: relative;
+  left: 1100px;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  border: solid;
+  border-radius: 9px;
+  border-color:#C70039 ;
+  background:white;
+  font-size: 20px;
+  color:#C70039;
+  position: fixed;
+  z-index: 9999;
+}
+.top a input:hover{
+  background: #C70039;
+  color:white;
+  position: fixed;
+}
 h2{
   font-size: 30px;
   font-style: italic;
@@ -70,21 +106,21 @@ h2{
   color: #C70039;
   border-style:inset;
   border-radius: 20px;
-  fo
 }
  .main{
   position: relative;
   top: 500px;
 }
-.box{
+.box p{
   position: absolute;
-  top: 300px;
-  left: 200px;
+  top: 450px;
+  left: 300px;
   color: #5C5C5C;
-  font-family: "DIM";
-  font-size: 1.5em;
+  font-family: 'Lobster', cursive;
+  font-size: 2.0em;
   font-weight: 100;
   line-height: 38px;
+
 }
 .hero img{
   margin-top: 400px;
@@ -108,8 +144,8 @@ h2{
   width: 100%;
   float: left;
   padding: 0;
-  height: 300px;
-  position: relative;;
+  height: 250px;
+  position: relative;
   top: -300px;
 }
 h2{
@@ -123,18 +159,44 @@ h2{
   margin-top: 100px;
   margin-left: 0px;
   margin-right: 0px;
-  text-align: left;
+  text-align:justify;
   margin-bottom: 50.88px;
   position: relative;
   top: -250px;
   font-family: "DIN";
   font-size: 1.125em;
   font-weight: 100;
-  line-height: 34px;
+  line-height: 28px;
   color: #5C5C5C;
 }
 .grid_4 h2{
   position: absolute;
   top: 150px;
-  text-align: justify;;
+  text-align: center;
+}
+.site{
+  position: relative;
+  top: -200px;
+  left: 200px;
+  letter-spacing: 5px;
+}
+.idea {
+  position: relative;
+  top: -170px;
+  left: 10px;
+}
+.footgrid_4{
+  float: right;
+  position: relative;
+  left: -100px;
+  top: -140px;
+  font-family: "DIN";
+  font-size: 1.125em;
+  font-weight: 100;
+  line-height: 20px;
+  color: #5C5C5C;
+}
+hr{
+  position: relative;
+  top: -250px;
 }
