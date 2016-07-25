@@ -1,0 +1,271 @@
+.Bannergrid_12 p{
+  margin: auto;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 25px;
+  font-family: cursive;
+  font-style: normal;
+
+}
+
+li{
+  display: inline;
+  float: left;
+  padding: 10px;
+  position:relative;
+  left: 600px;
+  top: 170px;
+  text-transform: uppercase;
+  color:#C70039;
+  font-family: "DIN";
+  font-size: lem;
+  font-weight: 700;
+
+  background: transparent;
+  line-height: inherit;
+}
+ul a:hover{
+  color: #C70039;
+}
+.top h1{
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+  position: fixed;
+  z-index: 9999;
+  }
+h1{
+  font-size: 100px;
+  font-style: normal;;
+  font-weight: 800;
+  font-family: "DIN";
+  letter-spacing: 20px;
+  line-height: 110px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  display: block;
+  text-transform: uppercase;
+position: relative;
+top: 150px;
+left: 100px;
+}
+body{
+  background: #f6f6f6;
+  color: #222;
+}
+ul a{
+  text-decoration: none;
+  list-style: none;
+    color: #3C4848;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+ul a:hover{
+  text-decoration: none;
+  color: #C70039;
+  font-size: 18px;
+}
+header{
+  width: 100%;
+  margin-top: -40px;
+  height: 100px;
+  color: #EF3F5A;
+}
+header p{
+  position: relative;
+  top: 800px;
+  left:200px;
+  color: black;
+}
+.top a input{
+  position: relative;
+  left: 1100px;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  border: solid;
+  border-radius: 9px;
+  border-color:#C70039 ;
+  background:white;
+  font-size: 20px;
+  color:#C70039;
+  position: fixed;
+  z-index: 9999;
+}
+.top a input:hover{
+  background: #C70039;
+  color:white;
+  position: fixed;
+}
+h2{
+  font-size: 30px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #C70039;
+  border-style:inset;
+  border-radius: 20px;
+}
+ .main{
+  position: relative;
+  top: 500px;
+}
+.box p{
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 2.0em;
+  font-weight: 100;
+  line-height: 38px;
+
+}
+.hero img{
+  margin-top: 400px;
+  height: 700px;
+}
+.grid_12{
+  position: relative;
+  top: -400px;
+}
+.grid_12 p{
+  margin-top: 20px;
+  font-family: "DIN";
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 38px;
+  color: #5C5C5C;
+  text-align: justify;
+}
+.grid_4 img{
+  display: block;
+  margin: 0;
+  width: 100%;
+  float: left;
+  padding: 0;
+  height: 250px;
+  position: relative;
+  top: -300px;
+}
+h2{
+  font-size: 30px;
+  font-style: italic;
+  font-family: sans-serif;
+  border-style:inset;
+  border-radius: 20px;
+}
+.grid_4 p{
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align:justify;
+  margin-bottom: 50.88px;
+  position: relative;
+  top: -250px;
+  font-family: "DIN";
+  font-size: 1.125em;
+  font-weight: 100;
+  line-height: 28px;
+  color: #5C5C5C;
+}
+.grid_4 h2{
+  position: absolute;
+  top: 150px;
+  text-align: center;
+}
+.site{
+  position: relative;
+  top: -200px;
+  left: 200px;
+  letter-spacing: 5px;
+}
+.idea {
+  position: relative;
+  top: -170px;
+  left: 10px;
+}
+.footgrid_4{
+  float: right;
+  position: relative;
+  left: -100px;
+  top: -140px;
+  font-family: "DIN";
+  font-size: 1.125em;
+  font-weight: 100;
+  line-height: 20px;
+  color: #5C5C5C;
+}
+hr{
+  position: relative;
+  top: -250px;
+}
+.get h1{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+.grid_6 h1{
+  font-size: 30px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #C70039;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+
+}
+.grid_6 h2{
+  font-size: 20px;
+  color: #C70039;
+  position: relative;
+  top: 170px;
+}
+.grid_6 p{
+  position: relative;
+  top: 130px;
+  left: 5px;
+  margin-top: 50px;
+  font-family: "DIN";
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 28px;
+  color: #5C5C5C;
+  text-align: justify;
+}
+.grid_6 img{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  top: 170px;
+  left: 30px;
+  margin-top: 50px;
+}
+.sites{
+  position: relative;
+  top: 300px;
+  left: 200px;
+  letter-spacing: 5px;
+}
+.ideas {
+  position: relative;
+  top: 350px;
+  left: 10px;
+}
+.a{
+  float: right;
+  position: relative;
+  left: -100px;
+  top: 370px;
+  font-family: "DIN";
+  font-size: 1.125em;
+  font-weight: 100;
+  line-height: 20px;
+  color: #5C5C5C;
+  margin-bottom: 90px;
+}
+.halo hr{
+  position: relative;
+  top: 250px;
+}
